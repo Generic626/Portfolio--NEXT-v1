@@ -22,7 +22,7 @@ const CareerCard = ({ timeframe, jobTitle, jobDesc, children }) => {
           </div>
         </td>
         <td>
-          <div className="font-thin text-sm text-zinc-400 text-justify">
+          <div className="font-thin text-sm text-zinc-400 text-justify mt-4">
             {jobDesc}
           </div>
         </td>
