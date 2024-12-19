@@ -7,9 +7,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundColor: {
+        primary: "#051931",
+        "primary-light": "#0A315f",
+        "primary-lighter": "#0f498d",
+        highlight: "#EDFF00",
+        "backdrop-white": "#cccccc",
+        "backdrop-white-transparent": "#ffffff10",
+        badge: "#134d49",
+        footer: "#10182f",
       },
     },
   },
