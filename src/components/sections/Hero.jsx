@@ -11,6 +11,7 @@ import {
 import { GoDownload } from "react-icons/go";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
@@ -116,19 +117,22 @@ const Hero = () => {
         {/* Social Icons */}
         <div className="flex gap-4 justify-center items-center mt-6">
           <BsGithub
-            className="size-[30px] cursor-pointer text-zinc-400 hover:text-white ease-linear duration-150"
+            className="social-icons"
             onClick={() => {
               handleSocialOnClick("https://github.com/Generic626");
             }}
           />
           <FaLinkedin
-            className="size-[30px] cursor-pointer text-zinc-400 hover:text-white ease-linear duration-150"
+            className="social-icons"
             onClick={() => {
               handleSocialOnClick(
                 "https://www.linkedin.com/in/matthew-tze-ken-fung-01736b270/"
               );
             }}
           />
+          <a href="mailto:someone@example.com">
+            <IoMdMail className="social-icons" />
+          </a>
         </div>
 
         {/* Get Resume */}
@@ -140,7 +144,7 @@ const Hero = () => {
             window.open("/Fung_Matthew_Tze_Ken_Resume_(IT)_2023.pdf", "_blank");
           }}
         >
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex justify-center items-center gap-2 text-xl">
             <span>Get My Resume</span>
             <GoDownload />
           </div>

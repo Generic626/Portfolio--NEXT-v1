@@ -21,12 +21,12 @@ const About = () => {
           ))}
 
           {/* Badges */}
-          <div className="flex items-center gap-2 bg-white rounded-full w-fit py-2 px-4 shadow-sm">
+          {/* <div className="flex items-center gap-2 bg-white rounded-full w-fit py-2 px-4 shadow-sm">
             <span>❤️</span>
             <Badge text="React" img="/tech/react.png" />
             <Badge text="Tailwind" img="/tech/tailwind.png" />
             <span>⭐</span>
-          </div>
+          </div> */}
         </div>
       </div>
 

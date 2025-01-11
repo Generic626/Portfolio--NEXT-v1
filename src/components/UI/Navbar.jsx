@@ -10,21 +10,15 @@ const Navbar = () => {
       {/* Nav Items */}
       <ul className="hidden lg:flex gap-8 uppercase">
         <a href="#about">
-          <li className="text-zinc-400 cursor-pointer hover:text-zinc-200 ease-in duration-150">
-            About Me
-          </li>
+          <li className="nav-item">About Me</li>
         </a>
 
         <a href="#experience">
-          <li className="text-zinc-400 cursor-pointer hover:text-zinc-200 ease-in duration-150">
-            Career
-          </li>
+          <li className="nav-item">Career</li>
         </a>
 
         <a href="#projects">
-          <li className="text-zinc-400 cursor-pointer hover:text-zinc-200 ease-in duration-150">
-            Projects
-          </li>
+          <li className="nav-item">Projects</li>
         </a>
       </ul>
     </nav>

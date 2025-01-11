@@ -8,6 +8,16 @@
   }
 }
 
+@layer components {
+  .social-icons {
+    @apply size-[30px] cursor-pointer text-zinc-400 hover:text-white ease-linear duration-150;
+  }
+
+  .nav-item {
+    @apply text-zinc-400 cursor-pointer hover:text-zinc-200 ease-in duration-150;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

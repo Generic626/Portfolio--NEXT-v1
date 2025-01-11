@@ -27,6 +27,7 @@ const CareerCard = ({ timeframe, jobTitle, jobDesc, children }) => {
           </div>
         </td>
       </tr>
+
       {/* Badges */}
       <tr>
         <td>
